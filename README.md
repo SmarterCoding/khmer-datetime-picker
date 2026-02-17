@@ -22,6 +22,8 @@ Example display:
 -   Khmer month names\
 -   Buddhist Era year
 
+<a href="https://smartercoding.github.io/khmer-datetime-picker" class="button">How to use it in your project</a>
+
 ------------------------------------------------------------------------
 
 ## 📦 Installation
