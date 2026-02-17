@@ -38,8 +38,8 @@ Example display:
 ### 2️⃣ Include Khmer DateTimePicker (CDN)
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetimepicker@v1.0.0/dist/khmer-datetimepicker.css">
-<script src="https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetimepicker@v1.0.0/dist/khmer-datetimepicker.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetime-picker@Khmer-datetime-picker%40v1.0.0/dist/khmer-datetimepicker.css">
+<script src="https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetime-picker@Khmer-datetime-picker%40v1.0.0/dist/khmer-datetimepicker.min.js"></script>
 ```
 
 ------------------------------------------------------------------------
