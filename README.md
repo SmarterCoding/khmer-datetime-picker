@@ -38,11 +38,9 @@ Example display:
 ### 2️⃣ Include Khmer DateTimePicker (CDN)
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/YOUR_GITHUB_USER/khmer-datetimepicker@v1.0.0/dist/khmer-datetimepicker.css">
-<script src="https://cdn.jsdelivr.net/gh/YOUR_GITHUB_USER/khmer-datetimepicker@v1.0.0/dist/khmer-datetimepicker.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetimepicker@v1.0.0/dist/khmer-datetimepicker.css">
+<script src="https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetimepicker@v1.0.0/dist/khmer-datetimepicker.js"></script>
 ```
-
-> Replace `YOUR_GITHUB_USER` with your GitHub username.
 
 ------------------------------------------------------------------------
 
@@ -111,7 +109,7 @@ KhmerDateTimePicker.attach("#datetime", {
 
     khmer-datetimepicker/
      ├── dist/
-     │    ├── khmer-datetimepicker.js
+     │    ├── khmer-datetimepicker.min.js
      │    └── khmer-datetimepicker.css
      ├── README.md
      ├── LICENSE
@@ -128,7 +126,9 @@ KhmerDateTimePicker.attach("#datetime", {
 
 3.  Use:
 
-    https://cdn.jsdelivr.net/gh/USERNAME/REPO@v1.0.0/dist/khmer-datetimepicker.js
+   -  https://cdn.jsdelivr.net/gh/SmarterCoding/REPO@v1.0.0/dist/khmer-datetimepicker.min.js
+   -  https://cdn.jsdelivr.net/gh/SmarterCoding/REPO@v1.0.0/dist/khmer-datetimepicker.css
+
 
 ------------------------------------------------------------------------
 
