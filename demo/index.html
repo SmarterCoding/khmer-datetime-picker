@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="km">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khmer DateTimePicker Demo</title>
+
+  <!-- Flatpickr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!-- Khmer DateTimePicker (local dist) -->
+  <link rel="stylesheet" href="../dist/khmer-datetimepicker.css">
+  <script src="../dist/khmer-datetimepicker.min.js"></script>
+
+  <style>
+    body{font-family:system-ui,"Noto Sans Khmer","Hanuman","Khmer OS",sans-serif;margin:30px;line-height:1.6}
+    .wrap{max-width:720px;margin:auto}
+    .card{border:1px solid #e5e7eb;border-radius:14px;padding:18px}
+    input{width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:12px;font-size:16px}
+    .row{display:grid;grid-template-columns:1fr;gap:14px}
+    @media (min-width:720px){.row{grid-template-columns:1fr 1fr}}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:8px}
+    .small{color:#6b7280;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🇰🇭 Khmer DateTimePicker Demo</h1>
+    <p class="small">Flatpickr + Khmer locale + Khmer digits + (optional) Buddhist Era year.</p>
+
+    <div class="card">
+      <div class="row">
+        <div>
+          <label>📅 Date (Khmer digits + BE year)</label><br/>
+          <input id="date" placeholder="ជ្រើសរើសកាលបរិច្ឆេទ" />
+          <p class="small">Submitted value: <code>Y-m-d</code></p>
+        </div>
+
+        <div>
+          <label>🕒 DateTime (24h)</label><br/>
+          <input id="datetime" placeholder="ជ្រើសរើសកាលបរិច្ឆេទ និងម៉ោង" />
+          <p class="small">Submitted value: <code>Y-m-d H:i</code></p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Code</h2>
+    <pre><code>KhmerDateTimePicker.attach("#date", {
+  enableTime: false,
+  buddhistEra: true,
+  khmerDigits: true,
+  dateFormat: "Y-m-d",
+  altFormat: "j F Y"
+});
+
+KhmerDateTimePicker.attach("#datetime", {
+  enableTime: true,
+  time_24hr: true,
+  buddhistEra: true,
+  khmerDigits: true,
+  dateFormat: "Y-m-d H:i",
+  altFormat: "j F Y H:i"
+});</code></pre>
+  </div>
+
+  <script>
+    KhmerDateTimePicker.attach("#date", {
+      enableTime: false,
+      buddhistEra: false,
+      khmerDigits: true,
+      dateFormat: "Y-m-d",
+      altFormat: "j F Y",
+
+      // calendarKhmerDigits: true,  // ✅ calendar days digits
+      // calendarBuddhistEra: false,
+
+      // Render Khmer digits inside calendar
+    });
+
+    KhmerDateTimePicker.attach("#datetime", {
+      enableTime: true,
+      time_24hr: true,
+      buddhistEra: false,
+      khmerDigits: true,
+      dateFormat: "Y-m-d H:i",
+      altFormat: "j F Y H:i",
+      // calendarKhmerDigits: true,  // ✅ calendar days digits
+      // calendarBuddhistEra: true,
+    });
+  </script>
+
+</body>
+</html>

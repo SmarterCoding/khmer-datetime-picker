@@ -1,0 +1,38 @@
+{
+  "name": "khmer-datetimepicker",
+  "version": "1.0.0",
+  "description": "Khmer DateTimePicker (Flatpickr wrapper) with Khmer locale, Khmer digits, and optional Buddhist Era display year.",
+  "keywords": [
+    "khmer",
+    "cambodia",
+    "datepicker",
+    "datetimepicker",
+    "flatpickr",
+    "locale",
+    "buddhist-era"
+  ],
+  "license": "MIT",
+  "author": "PSB Dev",
+  "homepage": "https://github.com/YOUR_GITHUB_USER/khmer-datetimepicker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USER/khmer-datetimepicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USER/khmer-datetimepicker/issues"
+  },
+  "main": "dist/khmer-datetimepicker.js",
+  "unpkg": "dist/khmer-datetimepicker.min.js",
+  "jsdelivr": "dist/khmer-datetimepicker.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "minify": "terser dist/khmer-datetimepicker.js -c -m -o dist/khmer-datetimepicker.min.js",
+    "test": "node -e \"console.log('ok')\""
+  },
+  "devDependencies": {
+    "terser": "^5.46.0"
+  }
+}
