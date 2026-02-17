@@ -126,8 +126,8 @@ KhmerDateTimePicker.attach("#datetime", {
 
 3.  Use:
 
-   -  https://cdn.jsdelivr.net/gh/SmarterCoding/REPO@v1.0.0/dist/khmer-datetimepicker.min.js
-   -  https://cdn.jsdelivr.net/gh/SmarterCoding/REPO@v1.0.0/dist/khmer-datetimepicker.css
+   -  https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetime-picker@Khmer-datetime-picker%40v1.0.0/dist/khmer-datetimepicker.min.js
+   -  https://cdn.jsdelivr.net/gh/SmarterCoding/khmer-datetime-picker@Khmer-datetime-picker%40v1.0.0/dist/khmer-datetimepicker.css
 
 
 ------------------------------------------------------------------------
